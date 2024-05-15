@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Restaurant Ordering App</title>
+    <!-- Add any additional meta tags, links to stylesheets, or scripts here -->
+</head>
+<body>
+    <header>
+        <div class="container" id="container">
+            <h1>Jimmy's Diner</h1>
+            <p class="header-desc" id="header-desc">The best burgers and pizzas in town.</p>
+        </div>
+        
+    </header>
+    
+    <main>
+        <section class="menu-container container" id="menu-container">
+                    <!-- <div class="item-container">
+                        <div class="menu-item">🍕</div>
+                        
+                        <div class="item-desc">
+                            <h2 class="item">Pizzas</h2>
+                            <p class="item-ingredients">pepperoni,mushroom,mozerolla</p>
+                            <p class="item-price">$14</p>
+                        </div>
+                        
+                        <div>
+                            <button>+</button>
+                        </div> 
+                    </div>
+                    <hr>
+                    
+                    
+                   </div> -->
+        </section>
+        
+        <section class="order-container container" id="order-container">
+            <h2 class="order-container-title" id="order-container-title">Your order</h2>
+            <div class="ordered-item-container" id="ordered-item-container" >
+                    
+                    <div class="ordered-item" id="ordered-item">
+                        <!-- <div class="itemAndRemoveBtn">
+                            <p class="item-name" id="item-name">Pizza</p>
+                            <button class="remove-btn" id="remove-btn">remove</button>
+                        </div>
+                        
+                        <p class="item-price" id="item-price">$14</p> -->
+                    </div>
+                    
+            </div>
+            <hr>
+            <div class="order-total-container" id="order-total-container">
+                <!-- <p class="total-price-title" id="total-price-title">Total Price:</p>
+                <p class="total-price" id="total-price"></p> -->
+            </div>
+            
+            <button class="complete-order-btn" id="complete-order-btn" data-complete-btn="complete">Complete Order</button>
+            
+            
+        </section>
+        
+        <section class="card-details-container" id="card-details-container">
+            <h2 class="form-title">Enter Card Details</h2>
+            <form class="card-details-form" id="card-details-form">
+                <div>
+                    <input type="text" placeholder="Enter your name" name="name" id="name" required>
+                </div>
+                <div>
+                    <input type="number" placeholder="Enter card number" name="cardNumber" id="cardNumber" required>
+                </div>
+                <div>
+                    <input type="number" placeholder="Enter card CVV" name="cardCvv" id="cardCvv" required>
+                </div>
+                 <button data-pay="pay" id="pay-btn" class="pay-btn">Pay</button>
+                
+                
+            </form>
+        </section>
+        
+        <section>
+            <div class="success-message" id="success-message"></div>
+        </section>
+        
+        
+      
+        
+            
+        
+    </main>
+    
+    
+    
+    
+    <!-- <script src="index.js" type="module"></script> -->
+    <script src="index.js" type="module"></script>
+    
+    
+</body>
+</html>
+
+
+
